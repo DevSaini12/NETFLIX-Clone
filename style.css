@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+.main {
+  height: 90vh;
+  background-image: url("Image/netflixback.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1450px, 100vw);
+  position: relative;
+  /* overflow: hidden; */
+}
+.box {
+  width: 100%;
+  height: 90vh;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+}
+.main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+  margin: 0px auto;
+  padding: 20px 0px;
+  z-index: 1;
+  position: relative;
+}
+
+nav span img {
+  width: 10vw;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 87%;
+  position: relative;
+  z-index: 1;
+  gap: 20px;
+  line-height: 20px;
+}
+.heading > :nth-child(1) {
+  font-size: 46px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  padding: 23px;
+  text-align: center;
+  font-family: "Martel Sans", sans-serif;
+}
+.heading > :nth-child(2) {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  /* font-weight: 900; */
+  font-family: "Martel Sans", sans-serif;
+  text-align: center;
+}
+.heading > :nth-child(3) {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-family: "Martel Sans", sans-serif;
+  text-align: center;
+}
+.btn {
+  padding: 6px 6px;
+
+}
+.btn-read {
+  background-color: red;
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  font-family: sans-serif;
+  /* font-size: 20px; */
+  cursor: pointer;
+}
+.btn-start {
+  /* width: 16vw; */
+  height: 7vh;
+  padding: 0px 30px;
+  border: 1px solid white;
+  border: none;
+  color: white;
+  font-size: 26px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.btn-English {
+  background: transparent;
+  border-radius: 6px;
+  border: 1px solid white;
+  color: white;
+  font-family: sans-serif;
+  /* font-size: 20px; */
+}
+.account {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.account :nth-child(1) {
+  width: 25vw;
+  height: 7vh;
+  padding: 0px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-family: sans-serif;
+  font-weight: 600;
+
+  outline: none;
+  color: white;
+}
+.seperation {
+  width: 100%;
+  height: 1vh;
+  background-color: rgb(55, 54, 54);
+}
+.sec {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  align-items: center;
+  max-width: 70vw;
+  margin: 0 auto;
+  height: 70vh;
+  /* border: 2px solid white; */
+  color: white;
+}
+.sepration2,
+.sepration3 {
+  width: 100%;
+  height: 1vh;
+  background-color: rgb(55, 54, 54);
+}
+/* .sec2,
+      .sec3 {
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+        align-items: center;
+        max-width: 70vw;
+        margin: 0 auto;
+        height: 70vh;
+        color: white;
+      } */
+.section-image {
+  position: relative;
+}
+.section-image img {
+  position: relative;
+  width: 30vw;
+  z-index: 10;
+}
+.section-image video {
+  position: absolute;
+  width: 21vw;
+  top: 74px;
+  left: 69px;
+  right: 0;
+}
+.section-image4{
+  position: relative;
+}
+.section-image4 img{
+  position: relative;
+  width: 30vw;
+  z-index: 10;
+}
+.section-image2 video {
+  position: absolute;
+  width: 18vw;
+  top: 29px;
+  left: 90px;
+  right: 0;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+}
+.first-container > :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+}
+.first-container > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 500;
+}
+.first-container > :nth-child(3) {
+  font-size: 24px;
+  font-weight: 500;
+}
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 20vh;
+  /* border: 1px solid white; */
+}
+
+.footer-detail img {
+  width: 6vw;
+}
+.ending {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  color: white;
+}
+.ending :nth-child(1) {
+  font-size: 18px;
+  font-family: sans-serif;
+  /* font-weight: 900; */
+}
+.ending :nth-child(2) {
+  font-size: 15px;
+  /* font-weight: 900; */
+  font-family: sans-serif;
+  text-align: center;
+}
